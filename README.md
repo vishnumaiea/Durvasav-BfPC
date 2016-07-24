@@ -1,9 +1,8 @@
 # Durvasav-BfPC
 Durvasav is a bruteforce password cracker (BfPC) written in C.
 
-
-  Name: Durvasav Bruteforce Password Cracker
-  Version: 3.2.2.80
+Name: Durvasav Bruteforce Password Cracker
+Version: 3.2.2.80
   Description: Bruteforce Password Cracker (BfPC)
   Author: Vishnu M Aiea (AYGENT543)
   Platform: Windows 32bit & 64bit
