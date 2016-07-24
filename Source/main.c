@@ -155,7 +155,7 @@ int main()          /* main starts */
 	}
 
 
-do{   /* loop for repeatition */
+do{   /* loop for repetition */
  clrscr();
  header();
  printf("\n\n\n\n\t1. [MD4]         2. [MD5]         3. [SHA0]         4. [SHA1]");
@@ -459,18 +459,7 @@ void Hash_Perform(int emin,int emax,register int start,register int stop,int cpm
 {
 FILE *fp;
 void (* hash_func)(); //function pointer
-register unsigned int v;
-register unsigned int u;
-register unsigned int t;
-register unsigned int s;
-register unsigned int r;
-register unsigned int q;
-register unsigned int p;
-register unsigned int n;
-register unsigned int m;
-register unsigned int k;
-register unsigned int j;
-register unsigned int i;
+register unsigned int v, u, t, s, r, q, p, n, m, k, j, i;
 char hashout[hcat[htyp-1]+1];
 static char output[MAXLEN+1];
 char a;
@@ -973,18 +962,7 @@ void Hash_Compare(int emin,int emax,register int start,register int stop,int cpm
 {
 FILE *fp;
 void (* hash_func)();
-register unsigned int v;
-register unsigned int u;
-register unsigned int t;
-register unsigned int s;
-register unsigned int r;
-register unsigned int q;
-register unsigned int p;
-register unsigned int n;
-register unsigned int m;
-register unsigned int k;
-register unsigned int j;
-register unsigned int i;
+register unsigned int v, u, t, s, r, q, p, n, m, k, j, i;
 char hashout[hcat[htyp-1]+1];
 char hashin[hcat[htyp-1]+100]; //to prevent overflow error and exit
 static char output[MAXLEN+1];
@@ -1088,7 +1066,7 @@ else
 }
 
 
-do{         /* loop for repeatition */
+do{         /* loop for repetition */
 header();
 printf("\n\n\n\n\t%s : Compare",hash_type);
 
@@ -1666,20 +1644,7 @@ if(in==NULL || out==NULL)
 FILE *fp;
 void (*hash_func)();
 register unsigned int limit; //no. of hashes read
-register unsigned int x;
-register unsigned int y;
-register unsigned int v;
-register unsigned int u;
-register unsigned int t;
-register unsigned int s;
-register unsigned int r;
-register unsigned int q;
-register unsigned int p;
-register unsigned int n;
-register unsigned int m;
-register unsigned int k;
-register unsigned int j;
-register unsigned int i;
+register unsigned int x, y, v, u, t, s, r, q, p, n, m, k, j, i;
 char hashout[hcat[htyp-1]+1];
 char hashin[hcat[htyp-1]+1];  /* used as a temp hash array */
 static char output[MAXLEN+1];
@@ -2482,18 +2447,7 @@ void Hash_Print(int emin,int emax,register int start,register int stop,int cpm,i
 {
 FILE *fp;
 void (* hash_func)();
-register unsigned int v;
-register unsigned int u;
-register unsigned int t;
-register unsigned int s;
-register unsigned int r;
-register unsigned int q;
-register unsigned int p;
-register unsigned int n;
-register unsigned int m;
-register unsigned int k;
-register unsigned int j;
-register unsigned int i;
+register unsigned int v, u, t, s, r, q, p, n, m, k, j, i;
 char hashout[hcat[htyp-1]+1];
 static char output[MAXLEN+1];
 char a;
@@ -3009,18 +2963,7 @@ void Hash_Fout(int emin,int emax,register int start,register int stop,int cpm,in
 {
 FILE *fp;
 void (* hash_func)();
-register unsigned int v;
-register unsigned int u;
-register unsigned int t;
-register unsigned int s;
-register unsigned int r;
-register unsigned int q;
-register unsigned int p;
-register unsigned int n;
-register unsigned int m;
-register unsigned int k;
-register unsigned int j;
-register unsigned int i;
+register unsigned int v, u, t, s, r, q, p, n, m, k, j, i;
 char hashout[hcat[htyp-1]+1];
 static char output[MAXLEN+1];
 char a;
@@ -3550,18 +3493,7 @@ main();
 void Pseudo_Perform(int emin,int emax,register int start,register int stop,int pm,int htyp)
 {
 FILE *fp;	
-register unsigned int v;
-register unsigned int u;
-register unsigned int t;
-register unsigned int s;
-register unsigned int r;
-register unsigned int q;
-register unsigned int p;
-register unsigned int n;
-register unsigned int m;
-register unsigned int k;
-register unsigned int j;
-register unsigned int i;
+register unsigned int v, u, t, s, r, q, p, n, m, k, j, i;
 static char output[MAXLEN+1];
 char a;
 clock_t starts,stops;
@@ -4012,18 +3944,7 @@ main();
 void Pseudo_Compare(int emin,int emax,register int start,register int stop,int pm,int htyp)
 {
 FILE *fp;	
-register unsigned int v;
-register unsigned int u;
-register unsigned int t;
-register unsigned int s;
-register unsigned int r;
-register unsigned int q;
-register unsigned int p;
-register unsigned int n;
-register unsigned int m;
-register unsigned int k;
-register unsigned int j;
-register unsigned int i;
+register unsigned int v, u, t, s, r, q, p, n, m, k, j, i;
 static char output[MAXLEN+1];
 static char string[MAXLEN+1];
 register int comp;
@@ -4528,18 +4449,7 @@ main();
 void Pseudo_Print(int emin,int emax,register int start,register int stop,int pm,int htyp)
 {
 FILE *fp;	
-register unsigned int v;
-register unsigned int u;
-register unsigned int t;
-register unsigned int s;
-register unsigned int r;
-register unsigned int q;
-register unsigned int p;
-register unsigned int n;
-register unsigned int m;
-register unsigned int k;
-register unsigned int j;
-register unsigned int i;
+register unsigned int v, u, t, s, r, q, p, n, m, k, j, i;
 static char output[MAXLEN+1];
 char a;
 clock_t starts,stops;
@@ -5002,18 +4912,7 @@ main();
 void Pseudo_Fout(int emin,int emax,register int start,register int stop,int pm,int htyp)
 {
 FILE *fp;
-register unsigned int v;
-register unsigned int u;
-register unsigned int t;
-register unsigned int s;
-register unsigned int r;
-register unsigned int q;
-register unsigned int p;
-register unsigned int n;
-register unsigned int m;
-register unsigned int k;
-register unsigned int j;
-register unsigned int i;
+register unsigned int v, u, t, s, r, q, p, n, m, k, j, i;
 static char output[MAXLEN+1];
 char a;
 clock_t starts,stops;
