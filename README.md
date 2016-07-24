@@ -1,6 +1,7 @@
 # Durvasav-BfPC
 Durvasav is a bruteforce password cracker (BfPC) written in C.
 
+
 /////////////////////////////////////////////////////////////
 
 Name: Durvasav Bruteforce Password Cracker
@@ -22,6 +23,7 @@ Contact: vishnumaiea@gmail.com
 Website : http://www.vishnumaiea.in/projects/software/durvasav-bfpc
 
 /////////////////////////////////////////////////////////////
+
 
 
 Durvasav BfPC is a password cracker for cracking general password hashes including MD4, MD5, SHA0, SHA1, SHA224, SHA256, SHA384, SHA512 using bruteforce method. Durvasav uses a wide range of characters of alphanumeric and special characters and also supported 256 length custom character set. There are several input methods and output methods. You can crack a single hash at a time and also 1000s of hashes simultaneously by importing a file. The minimum length for the password which you are expecting is 2 and the maximum is 12. Cracking may take several minutes to years depending the machine you are running Durvasav. There may be bugs in the program. Please report any bug you find, with additional information to me. You may also send any improvement notes. You can press '9' on the welcome screen to see the version information and other details. Some future advancements will be,
