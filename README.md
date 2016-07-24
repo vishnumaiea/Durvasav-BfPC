@@ -7,6 +7,8 @@ Name: Durvasav Bruteforce Password Cracker
 
 Version: 3.2.2.80
 
+Copyright (c) 2013 Vishnu M Aiea
+
 Description: Bruteforce Password Cracker (BfPC)
 
 Author: Vishnu M Aiea (AYGENT543)
@@ -14,8 +16,6 @@ Author: Vishnu M Aiea (AYGENT543)
 Platform: Windows 32bit & 64bit
 
 Date: 23:19 IST, 12-02-2013 
-
-Copyright: Copyright (c) 2013 Vishnu M Aiea
 
 Contact: vishnumaiea@gmail.com
 
