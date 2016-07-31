@@ -1,6 +1,6 @@
 
 
-/* BETA TEST-222222222222222222222222222222222222222222222222222222  */
+///////////////////////////////////////////////////////////////////////
 /* 1. removed all shorts - worked improvement                        */
 /* 2. added static to all charset                                    */
 /* 3. use of CMPLVL macro                                            */
@@ -52,7 +52,7 @@
 /* 48. removed printing mistake in 11 and 12 lengths                 */
 
 
-//Threading------------------------------------------------------------
+//-------------------------------------------------------------------//
 
 /* 49. language standard changed to C99                              */
 /* 50. use of function pointers in the function call system          */
@@ -71,7 +71,7 @@
 /**************************************************************
 
   Name: Durvasav BfPC
-  Version: 3.2.1.21 (Threaded)
+  Version: 3.2.1.21
   Description: Bruteforce Password Cracker (BfPC)
   Author: Vishnu M Aiea (AYGENT543)
   IDE: Orwell DevC++ 5.8.3
