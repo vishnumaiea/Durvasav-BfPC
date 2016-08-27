@@ -1,5 +1,5 @@
 # Durvasav-BfPC
-"Durvasav BfPC" is a bruteforce password hash cracker (BfPC) written in C.
+"Durvasav BfPC" is a bruteforce password hash cracker (BfPC) and wordlist generator program written in C.
 
 
 ---------------------------------------------------------------------------------------------------------
