@@ -2,7 +2,7 @@
 Durvasav is a bruteforce password hash cracker (BfPC) written in C.
 
 
-/////////////////////////////////////////////////////////////
+---------------------------------------------------------------------------------------------------------
 
 Name: Durvasav Bruteforce Password Cracker (BfPC)
 
@@ -20,7 +20,7 @@ Contact: vishnumaiea@gmail.com
 
 Website : http://www.vishnumaiea.in/projects/software/durvasav-bfpc
 
-/////////////////////////////////////////////////////////////
+--------------------------------------------------------------------------------------------------------
 
 
 
@@ -32,6 +32,6 @@ Durvasav BfPC is a password cracker for cracking general password hashes includi
 4. Support of other type of cracking methods.
 5. Support for direct bruteforce of files like ZIP, RAR, PDF etc.
 
-////////////////////////////////////////////////////////////
+---------------------------------------------------------------------------------------------------------
 
 Durvasav BfPC uses OpenSSL - https://www.openssl.org
