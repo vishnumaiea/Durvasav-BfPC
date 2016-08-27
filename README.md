@@ -34,4 +34,9 @@ Durvasav BfPC is a password cracker for cracking general password hashes includi
 
 ---------------------------------------------------------------------------------------------------------
 
-Durvasav BfPC uses OpenSSL - https://www.openssl.org
+Durvasav BfPC uses,
+
+1. OpenSSL - https://www.openssl.org
+2. Conio 2 - http://conio.sourceforge.net/docs/html/index.html
+
+---------------------------------------------------------------------------------------------------------
