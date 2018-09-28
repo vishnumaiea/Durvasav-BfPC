@@ -81,8 +81,11 @@
 
 //last change on 12-05-13 11:24
 
-#
-include < stdio.h > #include < stdlib.h > #include < string.h > #include < conio.h > #include < conio2.h > /* borland extension */ #include < time.h > #include "durvasav.h"
+#include < stdio.h > 
+#include < stdlib.h >
+#include < string.h >
+#include < conio.h >
+#include < conio2.h > /* borland extension */ #include < time.h > #include "durvasav.h"
 
 int hcat[8] = {
   MD4LEN,
